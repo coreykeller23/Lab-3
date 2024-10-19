@@ -1,0 +1,16 @@
+Algorithm Design: Lab 3
+File Name: lab3.txt
+Author: Corey Keller
+Created: 02/05/24
+
+Problem Description: Create a program that uses functions to find the area of a circle, volume of a cylinder, and area of a rectangle. The program should create 3 different functions that can be called and use parameters to define the radius and height (for the cylinder). The function for finding the area of a circle should be called within the function for finding the volume of a cylinder. The function for finding the area of a rectangle will have 2 parameters.
+
+Algorithm Design:
+
+Step 1: Import the math python file to use the pi variable
+
+Step 2: Create variables for the dimensions of the shapes. There will need to be two differnet radii (one for the circle and one for the cylinder), a height for the cylinder, a length for the rectangle, and the width of the rectangle.
+
+Step 3: Define the functions associated with the shapes that return area of a circle named "areCircle", volume of a cylinder called "volCylinder", and the area of a rectangle called "areaRectangle". When defining the volCylinder, call the function for the area of a circle.
+
+Step 4: Print statements that call each function using the variables created earlier as the arguments in the parameters.
